@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Fylo data storage component</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../dist/css/index.min.css">
+</head>
+<body>
+  <div class="page-wrapper">
+    <div class="actions-card">
+      <img class="actions-card__logo" src="../images/logo.svg" alt="Logo">
+      <div class="actions-card__actions">
+        <div class="actions-card__action-wrapper">
+          <img class="actions-card__action-icon" src="../images/icon-document.svg" alt="Document">
+        </div>
+        <div class="actions-card__action-wrapper">
+          <img class="actions-card__action-icon" src="../images/icon-folder.svg" alt="Folder">
+        </div>
+        <div class="actions-card__action-wrapper">
+          <img class="actions-card__action-icon" src="../images/icon-upload.svg" alt="Upload">
+        </div>
+      </div>
+    </div>
+    
+    <div class="storage-usage">
+      <span class="storage-usage__description">
+        You’ve used <span class="storage-usage__description--bold">815 GB</span> of your storage
+      </span>
+
+      <div class="progress-bar">
+        <div class="progress-bar__mark"></div>
+        <div class="progress-bar__labels">
+          <span class="progress-bar__label">0 GB</span>
+          <span class="progress-bar__label">1000 GB</span>
+        </div>
+      </div>
+
+      <div class="tooltip">
+        <span class="tooltip__text--bold">185</span>
+        <span class="tooltip__text">GB LEFT</span>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

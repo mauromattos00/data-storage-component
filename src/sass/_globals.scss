@@ -1,0 +1,27 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+    background-color: $very-dark-blue;
+    background-image: url("../../images/bg-desktop.png");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: 100%;
+    font-family: Raleway, 'sans serif';
+    font-size: 14px;
+}
+
+.page-wrapper {
+    width: 1100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
